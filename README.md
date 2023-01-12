@@ -14,28 +14,40 @@ plasma-field-scalar
 │   ├── biometric_authentication.md
 │   └── regulatory_compliance.md
 ├── hardware
-│   ├── circuit_diagrams
-│   │   ├── circuit_diagram_1.pdf
-│   │   ├── circuit_diagram_2.pdf
-│   │   ├── ...
-│   ├── 3D_models
-│   │   ├── model_1.stl
-│   │   ├── model_2.stl
-│   │   ├── ...
+├── scalar_field_production/
+│   ├── waveguides/
+│   │   ├── waveguide_1.yaml
+│   │   ├── waveguide_2.yaml
+│   ├── resonant_cavities/
+│   │   ├── resonant_cavity_1.yaml
+│   │   ├── resonant_cavity_2.yaml
+│   └── antenna_arrays/
+│       ├── antenna_array_1.yaml
+│       ├── antenna_array_2.yaml
+├── plasma_field_production/
+│   ├── gas_discharge_tubes/
+│   │   ├── gas_discharge_tube_1.yaml
+│   │   ├── gas_discharge_tube_2.yaml
+│   ├── laser-induced_plasmas/
+│   │   ├── laser_induced_plasma_1.yaml
+│   │   ├── laser_induced_plasma_2.yaml
+│   └── radio-frequency_plasma_generators/
+│       ├── radio_frequency_plasma_generator_1.yaml
+│       ├── radio_frequency_plasma_generator_2.yaml
+├── data_acquisition_systems/
+│   ├── data_acquisition_system_1.yaml
+│   ├── data_acquisition_system_2.yaml
+├── sensors/
+│   ├── sensor_1.yaml
+│   ├── sensor_2.yaml
+└── high-speed_cameras/
+│   ├── high_speed_camera_1.yaml
+│   ├── high_speed_camera_2.yaml
 │   ├── bill_of_materials.csv
-├── software
-│   ├── firmware
-│   │   ├── firmware_1.bin
-│   │   ├── firmware_2.bin
-│   │   ├── ...
-│   ├── device_drivers
-│   │   ├── driver_1.py
-│   │   ├── driver_2.py
-│   │   ├── ...
-│   ├── control_software
-│   │   ├── software_1.py
-│   │   ├── software_2.py
-│   │   ├── ...
+├── software api
+│   ├── bioinfo_api.py
+│   ├── auth_api.py
+│   ├── biometric_api.py (added for biometric authentication 
 ├── microservices
 │   ├── edge-service
 │   │   ├── edge-service.py
